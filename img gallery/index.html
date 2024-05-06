@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Image Gallery</h1>
+    <div class="filter-buttons">
+      <button onclick="filter('all')">All</button>
+      <button onclick="filter('nature')">Nature</button>
+      <button onclick="filter('animals')">Animals</button>
+      <button onclick="filter('waterfall')">Waterfall</button>
+    </div>
+    <div class="gallery" id="imageGallery">
+      <div class="image nature">
+        <img src="nature1.jpeg" alt="Nature 1">
+        <img src="nature2.jpeg" alt="Nature 1">
+        <img src="nature3.jpeg" alt="Nature 1">
+      </div>
+      <div class="image animals">
+        <img src="cat1.jpeg" alt="Animals 1">
+        <img src="dog.jpg" alt="Animals 1">
+        <img src="tiger.jpg" alt="Animals 1">
+      </div>
+      <div class="image waterfall">
+        <img src="water1.jpg" alt="waterfall">
+        <img src="water2.jpg" alt="waterfall">
+        <img src="water3.jpeg" alt="waterfall">
+      </div>
+      <!-- Add more images here with appropriate classes -->
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
